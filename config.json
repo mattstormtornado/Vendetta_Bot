@@ -1,19 +1,19 @@
 {
-    "rule1": {
+    "Rule 1": {
         "modActions": "ABUSE_WARNING",
         "removalReason": "ed41edec-89e7-4edc-baff-bb5ac41694fd"
     },
 
-    "rule8": {
+    "Rule 8": {
         "modActions": "ABUSE_WARNING",
         "removalReason": "30732dae-3bdb-4d9b-b396-631c221e8824"
     },
 
-    "rule9": {
+    "Rule 9": {
         "modActions": "ABUSE_WARNING",
         "removalReason": "3c10d6ba-96db-4105-979b-d545f0a23fde"
     },
-    
+
     "spam": {
         "modActions": "ABUSE_WARNING",
         "removalReason": "spam"

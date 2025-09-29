@@ -1,4 +1,5 @@
-import praw, time, json, os, removalmanager
+import praw, time, json, os, removalmanager, sys
+from datetime import datetime
 
 # --- Reddit login ---
 reddit = praw.Reddit("vendetta")
@@ -22,6 +23,7 @@ def safe_action(func, *args, **kwargs):
     except Exception as e:
         print(f"⚠️ API action failed: {e}")
         return None
+
 
 # --- Helper functions ---
 def collect_letters(comment):
@@ -52,6 +54,86 @@ def load_words(filename):
     return {w.upper() for w in data.get("words", [])}
 
 
+def handle_report(comment):
+    try:
+        # --- Determine submission and target comment ---
+        parent = comment.parent()
+        if not isinstance(parent, praw.models.Comment) or not is_goodbye(parent.body):
+            # Parent either doesn't exist or is not a Goodbye comment
+            invalid_message = (
+                f"Hi u/{comment.author}, unfortunately your report isn't valid.\n\n"
+                f"Please reply to the actual 'Goodbye' comment you want to report, tagging me."
+            )
+            safe_action(comment.reply, invalid_message)
+            print(f"ℹ️ Invalid report by {comment.author}, replied with guidance.")
+            return  # Stop further processing
+        if isinstance(parent, praw.models.Comment):
+            # Goodbye is a reply to another comment
+            target_comment = parent
+            submission = target_comment.submission
+        else:
+            # Goodbye is a direct reply to the submission
+            target_comment = None
+            submission = parent  # this is the Submission itself
+        submission = comment.submission
+        title = submission.title
+        letters = collect_letters(comment.parent())
+        ouija_word = "".join(letters).upper() if letters else "UNKNOWN"
+
+        # Notify moderators via modmail
+        report_message = (
+            f"🚨 User u/{comment.author} reported a potential issue.\n\n"
+            f"**Post Title:** {title}\n\n"
+            f"**Answer:** {ouija_word}\n\n"
+            f"[Link to report]({comment.permalink})"
+        )
+        safe_action(subreddit.message,
+                    subject="Report for Rule 1, 8 or 9 ",
+                    message=report_message
+                    )
+        print(f"📬 Sent modmail to moderators about {ouija_word}")
+        # --- Remove the Goodbye comment if possible ---
+        if target_comment:
+            safe_action(target_comment.mod.remove)
+            print(f"🚫 Removed reported Goodbye: {target_comment.body}")
+
+            # --- Lock the parent comment if it exists ---
+            grandparent = target_comment.parent()
+            if isinstance(grandparent, praw.models.Comment):
+                safe_action(grandparent.mod.lock)
+                print(f"🔒 Locked parent comment: {grandparent.body}")
+
+        # Acknowledge reporter and call Ouija-Bot
+        ack_message = (
+            f"You have reported this answer chain for a Rule 1, 8 or 9 violation.\n\n"
+            f"**Post Title:** {title}\n\n"
+            f"**Reported Answer:** {ouija_word}\n\n"
+            f"I've notified the human mods to take another look and they'll take the appropriate action\n\n"
+            f"Thank you 🫡\n"
+        )
+        safe_action(comment.reply, ack_message)
+        print(f"📨 Acknowledged report from {comment.author}")
+
+    except Exception as e:
+        print(f"⚠️ Failed to handle report: {e}")
+
+
+def log_removal(user, comment_body, comment_link, reason=""):
+    log_file = "/home/mattswain/Downloads/Vendetta_Bot/removals.log"  # adjust path if needed
+    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+    log_entry = (
+        f"[{timestamp}] User: {user} | "
+        f"Reason: {reason} | "
+        f"Comment: {comment_body} | "
+        f"Link: {comment_link}\n"
+    )
+    try:
+        with open(log_file, "a", encoding="utf-8") as f:
+            f.write(log_entry)
+        print(f"📝 Logged removal: {log_entry.strip()}")
+    except Exception as e:
+        print(f"⚠️ Failed to log removal: {e}")
+
 # Load blocked words from JSON files
 nsfw_words = load_words("nsfw.json")
 politics_words = load_words("politics.json")
@@ -63,7 +145,12 @@ try:
         submission = comment.submission
         text = comment.body.strip()
         print(f"{comment.author}: {text}")
+        # Report handler
+        if "u/vendetta_bot" in text.lower():
+            handle_report(comment)
+            continue
 
+        # Scan answers for bad words
         if is_goodbye(text):
             letters = collect_letters(comment)
             if not letters:
@@ -79,17 +166,17 @@ try:
 
             # Check NSFW
             if ouija_word.upper() in nsfw_words:
-                reason = "rule8"
+                reason = "Rule 8: " + text
                 action_taken = True
 
             # Check Politics
             elif ouija_word.upper() in politics_words:
-                reason = "rule9"
+                reason = "Rule 9: " + text
                 action_taken = True
 
             # Check TOS Violations
             elif ouija_word.upper() in tos_words:
-                reason = "rule1"
+                reason = "Rule 1: " + text
                 action_taken = True
 
             if action_taken:
@@ -119,15 +206,22 @@ try:
                 # Remove last N letters
                 for bad_letter_comment in parent_comments[-letters_to_remove:]:
                     removalmanager.removeContent(bad_letter_comment, reason)
+                    log_removal(
+                        user=comment.author,
+                        comment_body=comment.body,
+                        comment_link=f"https://reddit.com{comment.permalink}",
+                        reason=reason  # or whatever rule triggered
+                    )
                     print(f"🚫 Removed letter comment: {bad_letter_comment.body} ({reason})")
             else:
                 safe_action(comment.mod.approve)
                 print(f"✅ Allowed answer: {ouija_word} (no action taken)")
 
 except Exception as e:
-    error_message = f"🚨 I have just eaten shit and died! Please help me.\n\nError: {e}"
+    tb = sys.exc_info()[2]
+    lineno = tb.tb_lineno
+    error_message = f"🚨 I have just eaten shit and died! Please help me.\n\nError: {e} Line: {lineno}"
     safe_action(subreddit.message,
-        subject="Vendetta_Bot crashed",
-        message=error_message
-    )
-    
+                subject="Vendetta_Bot crashed",
+                message=error_message
+                )
