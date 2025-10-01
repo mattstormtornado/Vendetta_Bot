@@ -9,6 +9,7 @@ print(f"✅ Logged in as: {reddit.user.me()}")
 # --- Rate limiting ---
 ACTION_DELAY = 1.1
 last_action_time = 0
+processed_reports = set()
 
 
 def safe_action(func, *args, **kwargs):
@@ -55,6 +56,8 @@ def load_words(filename):
 
 
 def handle_report(comment):
+    if comment.id in processed_reports:
+        return
     try:
         # --- Determine submission and target comment ---
         parent = comment.parent()
@@ -82,7 +85,7 @@ def handle_report(comment):
 
         # Notify moderators via modmail
         report_message = (
-            f"🚨 User u/{comment.author} reported a potential issue.\n\n"
+            f"🚨 User u/{comment.author} reported a possible Rule 1, 8 or 9 violation.\n\n"
             f"**Post Title:** {title}\n\n"
             f"**Answer:** {ouija_word}\n\n"
             f"[Link to report]({comment.permalink})"
@@ -149,7 +152,6 @@ try:
         if "u/vendetta_bot" in text.lower():
             handle_report(comment)
             continue
-
         # Scan answers for bad words
         if is_goodbye(text):
             letters = collect_letters(comment)
@@ -166,22 +168,23 @@ try:
 
             # Check NSFW
             if ouija_word.upper() in nsfw_words:
-                reason = "Rule 8: " + text
+                reason = "Rule 8"
                 action_taken = True
 
             # Check Politics
             elif ouija_word.upper() in politics_words:
-                reason = "Rule 9: " + text
+                reason = "Rule 9"
                 action_taken = True
 
             # Check TOS Violations
             elif ouija_word.upper() in tos_words:
-                reason = "Rule 1: " + text
+                reason = "Rule 1"
                 action_taken = True
 
             if action_taken:
+                print(f"Answer breaks rules. Reason: {reason}")
                 removalmanager.removeContent(comment, reason)
-
+                
                 # --- Determine how many letter comments to remove ---
                 letters_to_remove = 0
                 if len(ouija_word) == 3:
@@ -210,7 +213,7 @@ try:
                         user=comment.author,
                         comment_body=comment.body,
                         comment_link=f"https://reddit.com{comment.permalink}",
-                        reason=reason  # or whatever rule triggered
+                        reason=reason 
                     )
                     print(f"🚫 Removed letter comment: {bad_letter_comment.body} ({reason})")
             else:
