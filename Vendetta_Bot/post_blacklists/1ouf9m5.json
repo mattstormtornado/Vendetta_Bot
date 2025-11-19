@@ -1,0 +1,16 @@
+{
+    "words": [
+        {
+            "word": "X",
+            "reason": "Rule 9"
+        },
+        {
+            "word": "Y",
+            "reason": "Rule 1"
+        },
+        {
+            "word": "BAD",
+            "reason": "Rule 8"
+        }
+    ]
+}

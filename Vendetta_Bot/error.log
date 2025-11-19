@@ -1,0 +1,483 @@
+[2025-10-11 18:42:07.469171] Fatal Crash: received 403 HTTP response, Line: 247
+[2025-10-11 22:35:53.028565] Fatal Crash: received 403 HTTP response, Line: 247
+[2025-10-11 22:37:55.136748] Fatal Crash: received 403 HTTP response, Line: 247
+[2025-10-12 11:25:48.822518] Fatal Crash: received 403 HTTP response, Line: 247
+[2025-10-12 11:28:17.718865] Fatal Crash: received 403 HTTP response, Line: 247
+[2025-10-13 07:31:56.050532] Fatal Crash: name 'sys' is not defined, Line: 252
+[2025-10-13 07:40:48.973549] Fatal Crash: name 'datetime' is not defined, Line: 252
+[2025-10-13 07:42:21.459265] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-13 07:42:28.667790] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-13 07:51:29.778013] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-13 07:51:38.666139] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-13 07:53:11.952844] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-13 07:53:20.654418] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-19 10:04:51.283641] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-19 19:25:17.801850] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-19 19:25:26.748331] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-20 08:28:07.008813] Server side error: received 500 HTTP response
+, Line: 280
+[2025-10-20 09:21:08.408923] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:21:22.727051] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:21:42.032499] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:22:54.432304] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:23:24.388739] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:23:45.458648] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:24:01.935222] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:25:16.146829] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:27:58.941007] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:29:13.784446] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:29:28.559629] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:29:57.608445] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:32:26.197336] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:32:43.761871] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:35:13.288485] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:35:51.063074] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:36:17.465040] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:38:10.238275] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:39:34.719368] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:45:38.864827] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:45:55.684152] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:46:12.023085] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:46:32.779076] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:47:10.814130] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:50:02.093032] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:50:51.557863] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:51:07.265105] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:52:25.818655] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:52:58.265680] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:53:38.650806] Server side error: received 503 HTTP response
+, Line: 169
+[2025-10-20 09:54:05.201202] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:55:18.910488] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 09:59:32.152783] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 10:00:06.543267] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 10:01:07.272336] Server side error: received 503 HTTP response
+, Line: 169
+[2025-10-20 10:02:08.302742] Server side error: received 503 HTTP response
+, Line: 169
+[2025-10-20 10:03:34.422213] Server side error: received 503 HTTP response
+, Line: 169
+[2025-10-20 10:04:06.167378] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 10:04:22.605551] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 10:04:48.459394] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 10:05:44.882120] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 10:06:38.760927] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 10:07:34.141595] Server side error: received 503 HTTP response
+, Line: 169
+[2025-10-20 10:08:50.374503] Server side error: received 500 HTTP response
+, Line: 169
+[2025-10-20 10:10:02.012099] Server side error: received 503 HTTP response
+, Line: 169
+[2025-10-20 10:10:25.191991] Server side error: received 503 HTTP response
+, Line: 169
+[2025-10-20 10:11:57.883678] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0), Line: 169
+[2025-10-20 10:20:04.032251] Server side error: received 503 HTTP response
+, Line: 169
+[2025-10-20 10:20:42.986004] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0), Line: 169
+[2025-10-22 03:22:40.543883] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-22 03:22:49.067657] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 02:12:07.511386] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 02:12:14.131877] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 16:06:33.095250] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 16:06:33.462878] Fatal Crash: name 'reason' is not defined, Line: 216
+[2025-10-23 16:11:11.043990] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 16:11:11.385576] Fatal Crash: name 'ouija_word' is not defined, Line: 212
+[2025-10-23 16:13:58.879795] Fatal Crash: name 'status' is not defined, Line: 210
+[2025-10-23 16:16:01.303394] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 16:16:01.670096] Fatal Crash: name 'ouija_word' is not defined, Line: 212
+[2025-10-23 16:26:26.574990] Fatal Crash: name 'ouija_word' is not defined, Line: 200
+[2025-10-23 16:29:43.554733] Fatal Crash: name 'ouija_word' is not defined, Line: 208
+[2025-10-23 16:30:47.545671] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 16:30:47.862859] Fatal Crash: name 'ouija_word' is not defined, Line: 220
+[2025-10-23 16:33:41.906091] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 16:33:42.251650] Fatal Crash: name 'ouija_word' is not defined, Line: 220
+[2025-10-23 16:35:47.445573] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 16:38:31.068377] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 16:41:25.032467] Failed to read mod notes: received 500 HTTP response
+, Line: 54
+[2025-10-23 21:25:19.632887] Fatal Crash: name 'bad_letter_comment' is not defined, Line: 308
+[2025-10-23 22:38:15.828731] Fatal Crash: name 'bad_letter_comment' is not defined, Line: 308
+[2025-10-24 00:22:59.176510] Fatal Crash: name 'bad_letter_comment' is not defined, Line: 308
+[2025-10-24 17:26:38.558020] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=89&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2d33ed0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 192
+[2025-10-24 18:23:44.076964] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=75&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9ceef310>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 192
+[2025-10-28 16:46:01.317663] Fatal Crash: normal_comment_checker() takes 5 positional arguments but 6 were given, Line: 246
+[2025-11-01 10:29:07.702720] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=88&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fad38b090>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 237
+[2025-11-02 14:19:42.010053] Fatal Crash: cannot access local variable 'e' where it is not associated with a value, Line: 366
+[2025-11-02 15:10:06.785883] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=93&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb293cd50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 237
+[2025-11-04 12:07:27.384410] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:07:44.355331] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:08:02.815512] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:08:17.680110] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:08:30.952242] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:08:48.961736] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:09:02.542613] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:09:18.591753] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:09:33.071478] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:09:48.594926] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:10:02.792774] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:10:18.008346] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:10:35.509734] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:10:50.432057] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:11:05.953522] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:11:22.926472] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:11:37.950357] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:11:53.690537] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:12:09.406483] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:12:25.639114] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:12:39.021889] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:12:54.031496] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:13:09.094670] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:13:23.485187] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:13:38.545562] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:13:53.781939] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:14:09.655138] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:14:24.807464] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:14:33.748018] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:14:47.588791] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:15:02.519753] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:15:17.923151] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:15:31.627700] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:15:45.119235] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:15:59.986173] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:16:13.370905] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:16:27.181700] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:16:41.959511] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:16:56.240263] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:17:13.119770] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:17:27.663613] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:17:42.395465] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:17:57.742962] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:18:14.670358] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:18:28.005017] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:18:42.950137] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:18:58.237367] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:19:13.629590] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:19:27.431288] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:19:42.799677] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:19:56.954724] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:20:12.149365] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:20:26.376843] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:20:43.802600] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:21:01.269809] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:21:15.630627] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:21:29.894249] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:21:44.397773] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:21:58.755782] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:22:12.909851] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:22:29.516755] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:22:43.485944] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:22:58.808005] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:23:14.216774] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:23:30.059252] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:23:44.449115] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:23:58.111710] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:24:12.449624] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:24:27.848936] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:24:36.038754] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:24:50.251040] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:25:05.487286] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:25:22.269707] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:25:38.817608] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:25:53.857435] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:26:08.309732] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:26:24.570743] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:26:39.813275] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:26:55.615370] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:27:09.659753] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:27:23.956136] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:27:40.736352] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:27:56.403678] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:28:12.070512] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:28:29.538025] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:28:43.880542] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:28:59.505871] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:29:15.553521] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:29:30.606818] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:29:45.505207] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:29:59.539789] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:30:15.301826] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:30:29.107173] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:30:43.268912] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:30:56.468172] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:31:11.358833] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:31:25.907183] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:31:39.995566] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:31:54.631255] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:32:10.232577] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:32:26.067214] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:32:41.210172] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:32:55.974619] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:33:11.308041] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:33:27.289724] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:33:42.906445] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:33:58.052842] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:34:13.442468] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:34:29.423353] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:34:39.750212] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:34:54.716626] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:35:08.923300] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:35:24.742239] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:35:38.026525] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:35:52.238024] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:36:08.339214] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:36:23.614794] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:36:38.950159] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:36:54.063681] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:37:07.679289] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:37:22.671997] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:37:38.534825] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:37:54.559216] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:38:08.561089] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:38:23.559052] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:38:39.301162] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:38:53.941600] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:39:10.026413] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:39:24.856363] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:39:40.010003] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:39:55.229350] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:40:09.748843] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:40:25.044223] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:40:43.594065] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:40:58.960303] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:41:13.873228] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:41:28.873848] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:41:44.122990] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:41:57.604011] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:42:12.358314] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:42:28.380828] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:42:43.540615] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:42:57.850418] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:43:11.867492] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:43:28.127131] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-04 12:43:45.560850] Server side error: received 500 HTTP response
+, Line: 237
+[2025-11-05 19:34:33.970151] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=78&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa872a7d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 237
+[2025-11-09 13:10:14.473575] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=79&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb7c006d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 238
+[2025-11-09 14:15:58.223938] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=73&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8d9cfd90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 238
+[2025-11-09 18:53:56.813403] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=72&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb3c430d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 238
+[2025-11-10 16:57:11.260422] Fatal Crash: 'Submission' object has no attribute 'body', Line: 314
+[2025-11-10 16:59:30.726999] Fatal Crash: 'str' object has no attribute 'parent', Line: 317
+[2025-11-10 17:01:55.060259] Fatal Crash: 'str' object has no attribute 'parent', Line: 317
+[2025-11-10 17:03:59.698244] Fatal Crash: 'str' object has no attribute 'parent', Line: 317
+[2025-11-10 17:06:37.804021] Fatal Crash: name 'letters' is not defined, Line: 315
+[2025-11-10 17:10:20.981841] Fatal Crash: 'Submission' object has no attribute 'body', Line: 311
+[2025-11-10 18:44:20.293486] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=90&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa8547010>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 287
+[2025-11-10 19:25:56.268570] Server side error: received 500 HTTP response
+, Line: 287
+[2025-11-14 21:16:05.051505] API action failure: USER_DOESNT_EXIST: "that user doesn't exist" on field 'to'
+, Line: 17
+[2025-11-14 21:16:11.874069] API action failure: USER_DOESNT_EXIST: "that user doesn't exist" on field 'to'
+, Line: 17
+[2025-11-14 21:16:16.945864] API action failure: USER_DOESNT_EXIST: "that user doesn't exist" on field 'to'
+, Line: 17
+[2025-11-14 21:16:19.972539] Failed to read mod notes: received 429 HTTP response
+, Line: 54
+[2025-11-14 21:16:20.344239] API action failure: USER_DOESNT_EXIST: "that user doesn't exist" on field 'to'
+, Line: 17
+[2025-11-14 21:16:22.278236] Fatal Crash: received 429 HTTP response, Line: 355
+[2025-11-16 08:42:30.313040] Fatal Crash: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskOuijaRedux/comments/?limit=75&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9089f1d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')), Line: 327
+[2025-11-17 10:45:08.960080] API action failure: USER_DOESNT_EXIST: "that user doesn't exist" on field 'to'
+, Line: 17
