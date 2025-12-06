@@ -32,7 +32,7 @@ def removeContent(item, ruleName):
         ruleAction = config.get(ruleName, None).get("modActions", None)
         ruleMessage = sub.mod.removal_reasons[removalReason].message
         item.mod.remove(reason_id=removalReason)
-        item.mod.send_removal_message(title="Content Removed", message=str(ruleMessage), type="private")
+        item.mod.send_removal_message(message=str(ruleMessage), type="private")
         try:
             r.comment(item.id).author.notes.create(
                 label=str(ruleAction), note=f"{ruleName} Violation.", subreddit=sub
